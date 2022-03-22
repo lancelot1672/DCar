@@ -1,0 +1,154 @@
+@charset "UTF-8";
+.n-section-title {
+    border-bottom: 3px solid #000000;
+    padding-bottom: 14px;
+    margin-top: 48px;
+    font-family: "Apple SD Gothic Neo", "Noto Sans KR", sans-serif;
+    line-height: 1.5;
+    font-size: 14px;
+    position: relative;
+    }
+    .n-table-filter {
+    margin: 50px 0 16px 0;
+	}
+	.n-table.table-col {
+    border-top: 2px solid #444444;
+	}
+	table {
+    width: 100%;
+    border-top: 2px solid #444444;
+    border-collapse: collapse;
+  	}
+  	th, td {
+  	border-top: 2px solid #444444;
+    border-bottom: 1px solid #444444;
+    padding: 10px;
+  	}
+	.n-radio-tab{
+	display: block;
+	overflow: hidden;
+	clip: rect(0 0 0 0);
+	margin: -1px;
+	padding: 8px 19px;
+	}
+/* 	.n-radio-tab{
+    display: block;
+   	overflow: hidden;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    clip: rect(0 0 0 0);
+	} */
+	.n-radio-tab input + label {
+    display: inline-block;
+    min-width: 76px;
+    border: 1px solid #f1f1f1;
+    /* color: #777777; */
+    font-size: 14px;
+    line-height: 30px;
+    float: left;
+    margin-right: -1px;
+    text-align: center;
+    vertical-align: top;
+    position: relative;
+    cursor: pointer;
+	}
+	.n-radio-tab input:checked + label {
+    border-color: #000000;
+    color: #000000;
+    z-index: 1;
+	}
+	input[type=radio]{
+		display:none; margin:10px;
+	}
+	.header-member {
+    display: flex;
+    height: 50px;
+    padding-left: 8px;
+    font-size: 14px;
+    font-size: 12px;
+    font-family: "Apple SD Gothic Neo","Noto Sans KR",sans-serif;
+    line-height: 1.5;
+    align-items: center;
+	}
+	
+	.header-member__block {
+	    display: flex;
+	    position: relative;
+	    box-sizing: border-box;
+	    height: 100%;
+	    padding: 0 9px 0 8px;
+	    align-items: center;
+	}
+	.header-member__block::after {
+    display: block;
+    position: absolute;
+    top: 50%;
+    right: 0;
+    width: 1px;
+    height: 12px;
+    margin-top: -6px;
+    background-color: #eee;
+    content: '';
+	}
+	
+	.header-member__link--user {
+    font-weight: 700;
+	}
+	
+	.header-member__link {
+    display: inline-flex;
+    padding: 4px;
+    line-height: 21px;
+	}
+	
+	a {
+    color: inherit;
+    text-decoration: none;
+   	
+	}
+	a:hover{
+	text-decoration: underline;
+	font-weight: 700;
+	}
+	
+	/* 버튼 */
+	button:hover{
+	text-decoration: underline;
+	font-weight: 700;
+	}
+	
+	.header-member__login {
+    box-sizing: border-box;
+    width: 150px;
+    height: 28px;
+    margin: 0 3px 0 7px;
+    padding-top: 1px;
+    border: 1px solid #000;
+    line-height: 26px;
+	}
+	button, input, select, textarea {
+    font-size: 100%;
+    font-family: "Apple SD Gothic Neo", "Noto Sans KR", sans-serif;
+    margin: 0;
+    vertical-align: baseline;
+    vertical-align: middle;
+	}
+	button, select {
+    text-transform: none;
+	}
+	html, button, input, select, textarea {
+    color: #000000;
+	}
+	
+	select {
+	width : 100px;
+	padding: .2em .2em;
+	border: 1px solid #999;
+	font-family: inherit;
+	background: url('../image/arrow.jpg') no-repeat 95% 50%; 
+	border-radius: 0px;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+}
